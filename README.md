@@ -27,7 +27,7 @@ To mitigate this, they recommend to perpend the linker's options string with '`S
 target_link_options(example PRIVATE "-s USE_SDL=2 -s EXPORTED_FUNCTIONS=[_main]")
 ```
 
-**You should write:*
+**You should write:**
 ```
 target_link_options(example PRIVATE "SHELL: -s USE_SDL=2 -s EXPORTED_FUNCTIONS=[_main]")
 ```
